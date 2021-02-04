@@ -1,0 +1,20 @@
+{
+    "name": "ania-kubow-getting-started",
+    "version": "0.16.0",
+    "description": "OpenTelemetry Course",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Ania Kubow",
+    "dependencies": {
+        "@opentelemetry/core": "^0.16.0",
+        "@opentelemetry/exporter-zipkin": "^0.16.0",
+        "@opentelemetry/node": "^0.16.0",
+        "@opentelemetry/plugin-express": "^0.13.0",
+        "@opentelemetry/plugin-http": "^0.16.0",
+        "@opentelemetry/plugin-https": "^0.16.0",
+        "@opentelemetry/tracing": "^0.16.0",
+        "express": "^4.17.1"
+    }
+}
