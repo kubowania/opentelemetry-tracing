@@ -6,11 +6,11 @@ This Repository is to support a tutorial on OpenTelemetry.
 
 to start this app run
 
-docker run -d -p 9411:9411 openzipkin/zipkin to start a zipkin container
+`docker run -d -p 9411:9411 openzipkin/zipkin` to start a zipkin container
 
-#npm i to install the packages
+#`npm i` to install the packages
 
-#node -r ./tracing.js app.js
+#`node -r ./tracing.js app.js`
 
 then visit localhost:8080/date
 
