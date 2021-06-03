@@ -12,6 +12,6 @@ to start this app run
 
 #`node -r ./tracing.js app.js`
 
-then visit localhost:8080/date
+then visit http://localhost:8080/date
 
 Now view the tracing data in zipkin : http://localhost:9411/zipkin/
