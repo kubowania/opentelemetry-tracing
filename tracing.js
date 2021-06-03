@@ -15,7 +15,7 @@ provider.register();
 provider.addSpanProcessor(
   new SimpleSpanProcessor(
     new ZipkinExporter({
-      serviceName: "get-date",
+      serviceName: "getting-started",
       // If you are running your tracing backend on another host,
       // you can point to it using the `url` parameter of the
       // exporter config.      
